@@ -6,7 +6,7 @@ const reverseString = function(string) {
         res.push(string[len]);
     }
 
-    return res;
+    return res.join('');
 };
 
 // Do not edit below this line
